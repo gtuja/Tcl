@@ -1,5 +1,5 @@
 # Tcl (Task Class Library)
-This is a class library project providing task feature to application on dot net platform.<br>
+This is a class library project providing task features to application on dot net platform.<br>
 This project started as a hobby, teach myself C#, not to mention very open source.<br>
 Actually I'm not good at .net programming, neighter english.<br>
 Have been living int embedded world about 20 years with data sheet, peripheral, interrupt, etc,<br>
