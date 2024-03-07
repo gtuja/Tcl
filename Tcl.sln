@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcl", "Tcl\Tcl.csproj", "{78521372-6E44-452A-B471-285FD72BEBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{F67D086E-D28F-4A92-BFCD-8F3C4998E8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78521372-6E44-452A-B471-285FD72BEBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78521372-6E44-452A-B471-285FD72BEBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78521372-6E44-452A-B471-285FD72BEBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78521372-6E44-452A-B471-285FD72BEBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67D086E-D28F-4A92-BFCD-8F3C4998E8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67D086E-D28F-4A92-BFCD-8F3C4998E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67D086E-D28F-4A92-BFCD-8F3C4998E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67D086E-D28F-4A92-BFCD-8F3C4998E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
