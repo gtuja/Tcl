@@ -38,12 +38,33 @@ public partial class MainWindow : Window, Tcl.ITcl
     this.btnExecute.Content = e.strContent;
   }
 
+  public void vidHandleEventTaskProgress(object? snd, TaskEventProgressArgs e)
+  {
+    throw new NotImplementedException();
+  }
+
+  public void vidHandleEventTaskExit(object? snd, TaskEventExitArgs e)
+  {
+    throw new NotImplementedException();
+  }
+
+  public void vidHandleEventTaskLog(object? snd, TaskEventLogArgs e)
+  {
+    throw new NotImplementedException();
+  }
+
   private void vidBtnExecuteClick(
     object objSender,
     RoutedEventArgs reaEvent
   )
   {
-    this.tmManager.s32Register(Tcl.TaskType.Template, new TaskRegisterArgs(this.vidHandleEventTaskEntry));
+    this.tmManager.s32Register(Tcl.TaskType.Template,
+                               new TaskRegisterArgs(
+                                  this.vidHandleEventTaskEntry,
+                                  this.vidHandleEventTaskProgress,
+                                  this.vidHandleEventTaskExit,
+                                  this.vidHandleEventTaskLog
+                                  ));
     MessageBox.Show("Button is clicked..");
   }
 }
